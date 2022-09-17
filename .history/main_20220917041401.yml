@@ -1,0 +1,10 @@
+---
+- name: Install & Configure Apache
+  hosta: all 
+  user: root
+
+  pre_tasks:
+        - name: Update APT Cache
+          apt: update_cache=true cache_valid_time=3600
+  
+  
