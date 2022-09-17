@@ -1,0 +1,7 @@
+---
+   - name: Install & Configure Apache
+     hosta: all 
+     become: true
+     user: root
+
+     pre_task

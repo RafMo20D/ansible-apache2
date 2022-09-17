@@ -1,0 +1,4 @@
+---
+   - name: Install & Configure Apache
+     hosta: all 
+     become
