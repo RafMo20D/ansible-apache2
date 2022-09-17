@@ -1,4 +1,0 @@
----
-- name: Install & Configure Apache
-     hosta: all 
-     user: root
